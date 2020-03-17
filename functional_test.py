@@ -71,6 +71,6 @@ class NewVisitorTest(unittest.TestCase):
                 self.assertIn('http://localhost:8000/recipes_update_form', self.browser.current_url)
                 self.fail('Finish the test!')
 
-if __name__ == 'main':
+if __name__ == '__main__':
         unittest.main(warnings = 'ignore')
 
